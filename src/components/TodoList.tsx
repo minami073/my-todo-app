@@ -22,7 +22,7 @@ export default function TodoList({
         onClick={() => onToggleTodo(todo.id)}
         className={`w-6 h-6 rounded-full border-2 flex-shrink-0 flex items-center justify-center transition-all duration-200 ${
           todo.completed
-            ? "bg-blue-500 border-blue-500"
+            ? "bg-red-500 border-red-500"
             : "border-gray-300 hover:border-gray-400"
         }`}
       >
